@@ -85,6 +85,5 @@ int main() {
     printf("PIB2: %.2f Bilhoes de Reais\n", PIB2); // Imprime o PIB2
     printf("pontos Turisticos2: %d\n", pontos_turisticos2); // Imprime o número de pontos turísticos2
 
-
     return 0; // Indica que o programa terminou com sucesso
 }
