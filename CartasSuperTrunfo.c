@@ -2,7 +2,7 @@
 
 int main() {
     
-    //Abixo são declaradas as variaveis das cartas 1 e 2
+    //Abaixo são declaradas as variaveis das cartas 1 e 2
     char carta1[50]="carta"; char carta2[50]="nome";//declara as cartas 1 e 2
     char estado1[50] = "sergipe"; char estado2[50]="BHAIA";//delcara os estados 1 e 2
     char Codigo1[50] = "A01"; char codigo2[50]="B01";//declara os codigos 1 e 2 
@@ -12,9 +12,9 @@ int main() {
     float PIB1 = 10; float PIB2=45;//declara os PIBs 1 e 2
     int Pontos_turisticos1 = 10; int pontos_turisticos2=12;//declara os pontos turisticos 1 e 2
 
-    //Abaixo é declarado o cadstro da carta 1
+    //Abaixo é declarado o cadastro da carta 1
 
-    printf("digite a carta1: ");//pergunata a carta1
+    printf("digite a carta1: ");//pergunta a carta1
     scanf("%s",carta1);//caixa de entrada da caixa1
 
     printf("Digite o seu Estado1: "); // Pergunta o estado1
@@ -39,6 +39,7 @@ int main() {
     scanf("%d", &Pontos_turisticos1); // Caixa de entrada de pontos turísticos1
     
     // Impressão da carta 1
+
     printf("%s\n", carta1);//Imprime a carta1
     printf("estado1: %s\n", estado1); // Imprime o estado1
     printf("codigo1: %s\n", Codigo1); // Imprime o código1
@@ -48,9 +49,9 @@ int main() {
     printf("PIB1: %.2f Bilhoes de Reais\n", PIB1); // Imprime o PIB1
     printf("pontos Turisticos1: %d\n", Pontos_turisticos1); // Imprime o número de pontos turísticos1
 
-    //Abixo é declarado o cadstro da carta 2
+    //Abaixo é declarado o cadstro da carta 2
 
-    printf("digite a carta2: ");//pergunata a carta2
+    printf("digite a carta2: ");//pergunta a carta2
     scanf("%s",carta2);//caixa de entrada da caixa2
 
     printf("Digite o seu Estado2: "); // Pergunta o estado2
