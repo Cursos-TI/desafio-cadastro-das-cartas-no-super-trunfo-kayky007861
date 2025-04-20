@@ -97,6 +97,5 @@ int main() {
    printf("O super poder 1>super poder 2: %d\n", Super_Poder1>Super_Poder2); // Compara os super poderes
    
    
-   
-   return 0; // Indica que o programa terminou com sucesso
+    return 0; // Indica que o programa terminou com sucesso
 }
