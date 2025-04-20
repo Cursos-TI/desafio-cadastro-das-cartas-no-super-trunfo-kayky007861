@@ -2,6 +2,7 @@
 
 int main() {
    //Abixo são declaradas as cartas 1 e 2
+   
    char carta1[50]="carta";   char carta2[50]="nome";//Cartas 
    char estado1[50] = "sergipe";   char estado2[50]="BHAIA";//Estados
    char codigo1[50] = "A01";   char codigo2[50]="B01";//Códigos
@@ -80,9 +81,6 @@ int main() {
    inverso_densidade2=(float)area2/populacao2;//cálculo do inverso da densidade populacional
    PIB_per_capita2=(unsigned int )PIB2/populacao2;//cálculo do PIB per capita
    Super_Poder2=(double)PIB2+populacao2+area2+PIB_per_capita2+inverso_densidade2+pontos_turisticos2;//cálculo do super poder
-
-
-
 
    //Abaixo seão impressas a comparação das cartas 1 e 2
    
