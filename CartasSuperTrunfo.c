@@ -82,7 +82,7 @@ int main() {
    PIB_per_capita2=(unsigned int )PIB2/populacao2;//cálculo do PIB per capita
    Super_Poder2=(double)PIB2+populacao2+area2+PIB_per_capita2+inverso_densidade2+pontos_turisticos2;//cálculo do super poder
 
-   //Abaixo seão impressas a comparação das cartas 1 e 2
+   //Abaixo são impressas as comparações das cartas 1 e 2
    
    printf("***Comparacao das cartas***\n");//Frase de inicio da comparação das cartas
    printf("Observacao verdadeira(1) falsa(0)\n");//Frase de inicio da comparação das cartas
