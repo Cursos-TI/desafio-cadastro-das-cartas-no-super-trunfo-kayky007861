@@ -85,7 +85,7 @@ int main() {
    //Abaixo são impressas as comparações das cartas 1 e 2
    
    printf("***Comparacao das cartas***\n");//Frase de inicio da comparação das cartas
-   printf("Observacao verdadeira(1) falsa(0)\n");//Frase de inicio da comparação das cartas
+   printf("Observacao: verdadeira(1) falsa(0)\n");//Frase de inicio da comparação das cartas
 
    printf("A populacao 1>populacao2: %d\n", populacao1>populacao2); // Compara as populações
    printf("A area 1>area 2: %d\n", area1>area2); // Compara as áreas
