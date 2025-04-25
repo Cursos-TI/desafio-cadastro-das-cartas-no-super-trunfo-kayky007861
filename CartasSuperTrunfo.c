@@ -85,16 +85,64 @@
     //Abaixo são impressas as comparações das cartas 1 e 2
  
     printf("***Comparacao das cartas***\n");//Frase de inicio da comparação das cartas
-    printf("Observacao verdadeira(1) falsa(0)\n");//Frase de inicio da comparação das cartas
+    
    
-    printf("A populacao 1>populacao2: %d\n", populacao1>populacao2); // Compara as populações
-    printf("A area 1>area 2: %d\n", area1>area2); // Compara as áreas
-    printf("O PIB 1>PIB 2: %d\n", PIB1>PIB2); // Compara os PIBs
-    printf("A densidade 1<densidade 2: %d\n", densidade1<densidade2); // Compara as densidades
-    printf("O PIB per capita 1>PIB per capita 2: %d\n", PIB_per_Capita1>PIB_per_capita2); // Compara os PIBs per capita
-    printf("O inverso da densidade 1>inverso da densidade 2: %d\n", inverso_densidade1>inverso_densidade2); // Compara os inversos das densidades
-    printf("o numero de pontos turisticos 1>pontos turisticos 2: %d\n", Pontos_turisticos1>pontos_turisticos2); // Compara os números de pontos turísticos
-    printf("O super poder 1>super poder 2: %d\n", Super_Poder1>Super_Poder2); // Compara os super poderes
+    if(populacao1> populacao2){
+        printf("A populacao 1 venceu\n");
+    } else if(populacao1 < populacao2){
+        printf("A Populacao 2 venceu\n");
+    } else {
+        printf("As populacoes sao iguais\n");
+    }
+    if(area1> area2){
+        printf("A area 1 venceu\n");
+    } else if(area1 < area2){
+        printf("A Area 2 venceu\n");
+    } else {
+        printf("As areas sao iguais\n");
+    }
+    if(PIB1> PIB2){
+        printf("O PIB 1 venceu\n");
+    } else if(PIB1 < PIB2){
+        printf("O PIB 2 venceu\n");
+    } else {
+        printf("Os PIBs sao iguais\n");
+    }
+    if(densidade1> densidade2){
+        printf("A densidade 2 venceu\n");
+    } else if(densidade1 < densidade2){
+        printf("A Densidade 1 venceu\n");
+    } else {
+        printf("As densidades sao iguais\n");
+    }
+    if(PIB_per_Capita1> PIB_per_capita2){
+        printf("O PIB per capita 1 venceu\n");
+    } else if(PIB_per_Capita1 < PIB_per_capita2){
+        printf("O PIB per capita 2 venceu\n");
+    } else {
+        printf("Os PIBs per capita sao iguais\n");
+    }
+    if(inverso_densidade1> inverso_densidade2){
+        printf("O inverso da densidade 1 venceu\n");
+    } else if(inverso_densidade1 < inverso_densidade2){
+        printf("O inverso da densidade 2 venceu\n");
+    } else {
+        printf("Os inversos das densidades sao iguais\n");
+    }
+    if(Pontos_turisticos1> pontos_turisticos2){
+        printf("O numero de pontos turisticos 1 venceu\n");
+    } else if(Pontos_turisticos1 < pontos_turisticos2){
+        printf("O numero de pontos turisticos 2 venceu\n");
+    } else {
+        printf("Os numeros de pontos turisticos sao iguais\n");
+    }
+    if(Super_Poder1> Super_Poder2){
+        printf("O super poder 1 venceu\n");
+    } else if(Super_Poder1 < Super_Poder2){
+        printf("O super poder 2 venceu\n");
+    } else {
+        printf("Os super poderes sao iguais\n");
+    }
  
  
      return 0; // Indica que o programa terminou com sucesso
